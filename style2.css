@@ -1,0 +1,115 @@
+body{
+	background-color:#F7F7F7;
+	color: #383838;
+	font-family:"Noto sans-serif;";
+	font-size: 16px;
+}
+
+h1,h2{
+	font-family: "Lato", sans-serif;
+	color:#58AC35;
+	font-weight: 500;
+}
+
+h1{
+	font-size: 32px;
+	color: #5D82A2;
+}
+
+h2{
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: #9245CD;
+}
+
+a:hover{
+	color: black;
+}
+
+
+/* Custom design with classes */
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+	text-align: center;
+	border-radius: 4px;
+	margin: 20px 0px;
+	margin-bottom: 20px;
+}
+.card-white h2 {
+	margin-bottom: 25px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-bleu {
+	background-color:#9245CD ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-bleu:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+}
+
+.fa-facebook {
+	color: blue;
+}
+
+.fa-linkedin {
+	color: darkblue;
+}
+
+.fa-instagram {
+	color: #9F44C1;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#conclusion h2 {
+	margin-bottom: 0px;
+}
